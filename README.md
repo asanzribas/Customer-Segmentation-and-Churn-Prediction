@@ -28,3 +28,33 @@ In the context of a customer churn prediction project, clustering can be relevan
 - Model Calibration: By incorporating cluster information into predictive models, the model's accuracy in predicting customer churn may be improved. The distinct characteristics of each cluster can be used to fine-tune model parameters and enhance its predictive power.
 
 - Anomaly Detection: Clustering can help identify outliers or anomalies within the data, which may represent unusual customer behavior. Detecting these anomalies early on can be crucial in predicting and preventing customer churn.
+
+K-Means algorithm has been used for clustering analysis in this project given its simplicity, efficiency, scalability, versatility and intuitiveness. However, it's essential to note that K-Means has some limitations. It assumes spherical clusters of similar sizes, and its performance may degrade with non-linear or irregularly shaped clusters. The number of clusters (K) needs to be specified in advance. We have selected three clusters considering both inertia plots and silhouette diagrams.
+
+The 3 clusters identified are the following:
+
+| Sections                  | Long-term Enthusiasts                  | Value-Oriented Traditionalists             | Dynamic Explorers                     |
+| ------------------------- | ------------------------------------- | ------------------------------------------- | ------------------------------------- |
+| Overview                  | Long-term customers with higher spending. DSL (38%) or Fiber optic (62%) services. Active users of various additional services. Engaged in longer-term contracts of 1 or 2 years (76%). Prefer automatic payment methods (Bank transfer and Credit card). Generally, have a higher probability of being loyal customers. | Customers with moderate tenure and preference for lower-cost options. Customers who use only phone services (63%) or DSL (37%). Prefer Month-to-month contracts (49%). Show a preference for Mailed check payment methods (46%). Low likelihood of churning | Customers with short tenure and high likelihood of churning. DSL (28%) or Fiber optic (72%) services. Less likely to have partners or dependents. Prefer Month-to-month contracts (89%). Lower use of additional services. High likelihood of churning (49% churned last month). |
+| Key Features              | - Higher spending
+- DSL (38%) or Fiber optic (62%)
+- Active users of additional services
+- Longer-term contracts (1 or 2 years, 76%)
+- Prefer automatic payments | - Moderate tenure
+- Phone services (63%) or DSL (37%)
+- Month-to-month contracts (49%)
+- Mailed check payment methods (46%)
+- Low likelihood of churning | - Short tenure
+- Fiber optic usage (72%)
+- Month-to-month contracts (89%)
+- Lower use of additional services
+- High likelihood of churning (49%) |
+| Customer Profile          | - Segmentation: Established and loyal customers.
+- Behavior: Prefer stable and reliable services with a commitment to longer contracts.
+- Potential Strategies: Offer loyalty rewards, promote additional services or upgrades. | - Segmentation: Moderate-term customers with basic service needs, particularly phone services.
+- Behavior: Prefer flexibility with short-term commitments, cost-conscious.
+- Potential Strategies: Offer promotions for extended contracts, upsell additional services for internet usage. | - Segmentation: Short-term tenure and highest level of Fiber optic usage.
+- Behavior: Seek high-speed internet but with a tendency to churn.
+- Potential Strategies: Focus on customer retention efforts, personalized offers to reduce churn. |
+
+
