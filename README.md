@@ -39,8 +39,9 @@ The 3 clusters identified are the following:
 | **Key features** |<br>- DSL (38%) or Fiber optic (62%) services.<br>- Active users of various additional services.<br>- Engaged in longer-term contracts of 1 or 2 years (76%).<br>- Prefer automatic payment methods (Bank transfer and Credit card).<br>- Generally, have a higher probability of being loyal customers. | <br>- Customers who use only phone services (63%) or DSL (37%).<br>- Prefer Month-to-month contracts (49%).<br>- Show a preference for Mailed check payment methods (46%).<br>- Low likelihood of churning. | <br>- DSL (28%) or Fiber optic (72%) services.<br>- Less likely to have partners or dependents.<br>- Prefer Month-to-month contracts (89%).<br>- Lower use of additional services.<br>- High likelihood of churning (49% churned last month). |
 | **Customer Profile** |<br>- Segmentation: Established and loyal customers with Internet services.<br>- Behavior: Prefer stable and reliable services with a commitment to longer contracts.<br>- Potential Strategies: Offer loyalty rewards, promote additional services or upgrades. | <br>- Segmentation: Moderate-term customers with basic service needs, particularly phone services.<br>- Behavior: Prefer flexibility with short-term commitments, cost-conscious.<br>- Potential Strategies: Offer promotions for extended contracts, upsell additional services for internet usage. | <br>- Segmentation: Short-term tenure and highest level of Fiber optic usage.<br>- Behavior: Seek high-speed internet but with a tendency to churn.<br>- Potential Strategies: Focus on customer retention efforts, personalized offers to reduce churn. |
 
+For simplicty, the clusters can be visualised with two dimensions, monthly charges and tenure:
 
-
+![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/f5a03706-ff15-4b95-8446-f20826a27b14)
 
 
 
