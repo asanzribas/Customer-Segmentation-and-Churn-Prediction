@@ -1,4 +1,4 @@
-INTRODUCTION
+**INTRODUCTION**
 
 The telecommunications company Telco finds itself facing a pressing challenge – a significant 26% of its customer base has opted to discontinue services in the last month. Recognising the critical need to address this surge in customer churn, Telco has decided to leverage data science in understanding and mitigating this trend.
 
@@ -13,7 +13,7 @@ The mission is clear: develop predictive models to understand which customers ar
 
 The contributions of the customer churn prediction models will play a pivotal role in not only reshaping Telco's customer retention strategies but also building a more resilient and customer-centric telecommunications ecosystem.
 
-SEGMENTATION ANALYSIS
+**SEGMENTATION ANALYSIS**
 
 In the context of a customer churn prediction project, clustering can be relevant for several reasons:
 
@@ -43,5 +43,30 @@ For simplicty, the clusters can be visualised with two dimensions, monthly charg
 
 ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/f5a03706-ff15-4b95-8446-f20826a27b14)
 
+**CHURN PREDICTION**
 
+In the context of a churn prediction project where interpretability and model performance are key priorities, three algorithms were chosen based on their unique strengths. 
+<br>
+
+**Logistic Regression** was selected for its high interpretability, as it provides clear insights into the impact of each feature on the likelihood of churn. This transparency can be crucial for understanding the driving factors behind customer attrition.
+<br>
+
+**Random Forest**, while sacrificing some interpretability compared to Logistic Regression, was chosen for its robustness and ability to handle non-linear relationships in the data. It also provides feature importance scores, aiding in the identification of key predictors. 
+<br>
+
+**Gradient Boosting** algorithms, such as XGBoost, strike a balance between interpretability and predictive power. Although not as interpretable as Logistic Regression, they offer strong performance in capturing complex patterns within the data. Feature importance scores and interpretability techniques contribute to understanding the model's decision-making process. 
+<br>
+
+All three algorithms are well-suited for handling imbalanced data, providing a comprehensive approach to churn prediction that aligns with the project's dual objectives of interpretability and performance.
+
+- Statistical Evaluation
+
+The primary goal in churn prediction is to identify customers who are actually at risk of churning. Maximising recall ensures that you capture as many true positives (actual churners) as possible. This is crucial for implementing effective retention strategies and preventing customer attrition.
+
+While recall is important, precision should not be completely ignored. Precision is crucial for resource efficiency. In a telecommunications context, a false positive may lead to unnecessary and potentially costly retention efforts. Furthermore, incorrectly targeting non-churning customers as potential churners can lead to customer frustration and dissatisfaction.
+
+Maximising recall is important for capturing as many true churners as possible but a balance between precision and recall needs to be considered to ensure a well-rounded and effective churn prediction model.
+
+ ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/2f2b2410-3091-4510-a945-f5b8b1819886)
+ 
 
