@@ -33,28 +33,9 @@ K-Means algorithm has been used for clustering analysis in this project given it
 
 The 3 clusters identified are the following:
 
-| Sections                  | Long-term Enthusiasts                  | Value-Oriented Traditionalists             | Dynamic Explorers                     |
-| ------------------------- | ------------------------------------- | ------------------------------------------- | ------------------------------------- |
-| Overview                  | Long-term customers with higher spending. DSL (38%) or Fiber optic (62%) services. Active users of various additional services. Engaged in longer-term contracts of 1 or 2 years (76%). Prefer automatic payment methods (Bank transfer and Credit card). Generally, have a higher probability of being loyal customers. | Customers with moderate tenure and preference for lower-cost options. Customers who use only phone services (63%) or DSL (37%). Prefer Month-to-month contracts (49%). Show a preference for Mailed check payment methods (46%). Low likelihood of churning | Customers with short tenure and high likelihood of churning. DSL (28%) or Fiber optic (72%) services. Less likely to have partners or dependents. Prefer Month-to-month contracts (89%). Lower use of additional services. High likelihood of churning (49% churned last month). |
-| Key Features              | - Higher spending
-- DSL (38%) or Fiber optic (62%)
-- Active users of additional services
-- Longer-term contracts (1 or 2 years, 76%)
-- Prefer automatic payments | - Moderate tenure
-- Phone services (63%) or DSL (37%)
-- Month-to-month contracts (49%)
-- Mailed check payment methods (46%)
-- Low likelihood of churning | - Short tenure
-- Fiber optic usage (72%)
-- Month-to-month contracts (89%)
-- Lower use of additional services
-- High likelihood of churning (49%) |
-| Customer Profile          | - Segmentation: Established and loyal customers.
-- Behavior: Prefer stable and reliable services with a commitment to longer contracts.
-- Potential Strategies: Offer loyalty rewards, promote additional services or upgrades. | - Segmentation: Moderate-term customers with basic service needs, particularly phone services.
-- Behavior: Prefer flexibility with short-term commitments, cost-conscious.
-- Potential Strategies: Offer promotions for extended contracts, upsell additional services for internet usage. | - Segmentation: Short-term tenure and highest level of Fiber optic usage.
-- Behavior: Seek high-speed internet but with a tendency to churn.
-- Potential Strategies: Focus on customer retention efforts, personalized offers to reduce churn. |
-
+| Cluster 0: Long-term Enthusiasts | Cluster 1: Value-Oriented Traditionalists | Cluster 2: Dynamic Explorers |
+| ------------------------------- | -------------------------------------- | ----------------------------- |
+| **Description:** Long-term customers with higher spending. | **Description:** Customers with moderate tenure and preference for lower-cost options. | **Description:** Customers with short tenure and high likelihood of churning. |
+| **Key features:**<br>- DSL (38%) or Fiber optic (62%) services.<br>- Active users of various additional services.<br>- Engaged in longer-term contracts of 1 or 2 years (76%).<br>- Prefer automatic payment methods (Bank transfer and Credit card).<br>- Generally, have a higher probability of being loyal customers. | **Key features:**<br>- Customers who use only phone services (63%) or DSL (37%).<br>- Prefer Month-to-month contracts (49%).<br>- Show a preference for Mailed check payment methods (46%).<br>- Low likelihood of churning. | **Key features:**<br>- DSL (28%) or Fiber optic (72%) services.<br>- Less likely to have partners or dependents.<br>- Prefer Month-to-month contracts (89%).<br>- Lower use of additional services.<br>- High likelihood of churning (49% churned last month). |
+| **Customer Profile:**<br>- Segmentation: Established and loyal customers.<br>- Behavior: Prefer stable and reliable services with a commitment to longer contracts.<br>- Potential Strategies: Offer loyalty rewards, promote additional services or upgrades. | **Customer Profile:**<br>- Segmentation: Moderate-term customers with basic service needs, particularly phone services.<br>- Behavior: Prefer flexibility with short-term commitments, cost-conscious.<br>- Potential Strategies: Offer promotions for extended contracts, upsell additional services for internet usage. | **Customer Profile:**<br>- Segmentation: Short-term tenure and highest level of Fiber optic usage.<br>- Behavior: Seek high-speed internet but with a tendency to churn.<br>- Potential Strategies: Focus on customer retention efforts, personalized offers to reduce churn. |
 
