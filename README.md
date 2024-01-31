@@ -71,20 +71,19 @@ To construct the models, we have splitted the data into 80% and 20% for training
 
 1) Statistical Evaluation
 
-We plotted Precision-Recall curves for each optimised model within the testing data. These curves effectively visualise the trade-off between precision and recall for different models. Precision measures how many movies predicted to be successful are genuinely successful whereas Recall measures how many successful movies were accurately identified among all the successful movies. ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/f16545ad-e19b-4b83-9e72-76e31f14b702)
+We plotted Precision-Recall curves for each optimised model within the testing data. These curves effectively visualise the trade-off between precision and recall for different models. Precision measures how many customers predicted to churn genuinely churned whereas Recall measures how many churned customers were accurately identified among all the churned customers. 
 
+ ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/2f2b2410-3091-4510-a945-f5b8b1819886)
 
 The primary goal in churn prediction is to identify customers who are actually at risk of churning. Maximising recall ensures that you capture as many true positives (actual churners) as possible. This is crucial for implementing effective retention strategies and preventing customer attrition.
 
 While recall is important, precision should not be completely ignored. Precision is crucial for resource efficiency. In a telecommunications context, a false positive may lead to unnecessary and potentially costly retention efforts. Furthermore, incorrectly targeting non-churning customers as potential churners can lead to customer frustration and dissatisfaction.
 
-Maximising recall is important for capturing as many true churners as possible but a balance between precision and recall needs to be considered to ensure a well-rounded and effective churn prediction model.
-
- ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/2f2b2410-3091-4510-a945-f5b8b1819886)
+In short, maximising recall is important for capturing as many true churners as possible but a balance between precision and recall needs to be considered to ensure a well-rounded and effective churn prediction model.
  
 2) Financial Evaluation
   
-  This project includes an evaluation framework that decision-makers can use to test different marketing strategies and retention campaigns. This evaluation framework allows to use a wide range of scenarios and assumptions.
+This project includes an evaluation framework that decision-makers can use to test different marketing strategies and retention campaigns. This evaluation framework allows to use a wide range of scenarios and assumptions.
 
   Let's have a look at this evaluation framework with an example that considers the following retention strategies for customers likely to churn according to our models:
 
