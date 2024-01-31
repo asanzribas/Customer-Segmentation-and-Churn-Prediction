@@ -123,4 +123,4 @@ However, the higher the retention conversion rate (assumed to be 35% in this sce
 - Each cluster presents unique characteristics, behaviors, and churn likelihoods, allowing Telco to tailor retention efforts to the specific needs of each group.
 - The churn prediction models, emphasising on interpretability and model performance, provide decision-makers with a comprehensive toolkit to combat customer churn.
 - The financial evaluation framework introduces a business-oriented dimension to the project, allowing Telco to not only identify effective retention strategies but also to gauge their financial viability.
-- By aligning marketing strategies with the identified customer clusters and optimising retention campaigns based on the proposed framework, Telco is in a strong position to reverse the alarming trend of customer churn.
+- By aligning marketing strategies with the identified customer clusters and optimising retention campaigns based on the proposed evaluation framework, Telco is in a strong position to reverse the alarming trend of customer churn.
