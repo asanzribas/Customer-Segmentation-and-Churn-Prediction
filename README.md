@@ -1,3 +1,5 @@
+#**PROJECT OVERVIEW**
+
 **INTRODUCTION**
 
 What if a telecommunications company could predict and prevent customer churn, saving millions in potential lost revenue? This was the challenge faced by Telco as a staggering 26% of its customer base chose to discontinue services in the last month. 
