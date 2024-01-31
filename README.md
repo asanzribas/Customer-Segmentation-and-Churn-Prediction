@@ -86,3 +86,6 @@ Maximising recall is important for capturing as many true churners as possible b
   - Customer lifetime: The 35% of customers who accept the offers extend the contract for 2 years.
 
  Following this example, and using only a 20% of our data to make these estimations (this is the part of the data used for testing purposes in our modelling), we can see the following results:
+
+ ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/7bff1c49-91ce-4f9c-82ac-ba20e81fd59b)
+
