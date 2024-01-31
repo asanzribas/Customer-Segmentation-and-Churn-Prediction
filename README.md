@@ -1,6 +1,14 @@
 **INTRODUCTION**
 
-The telecommunications company Telco finds itself facing a pressing challenge – a significant 26% of its customer base has opted to discontinue services in the last month. Recognising the critical need to address this surge in customer churn, Telco has decided to leverage data science in understanding and mitigating this trend.
+The telecommunications company Telco finds itself facing a pressing challenge – a significant 26% of its customer base has opted to discontinue services in the last month. 
+
+The following chart illustrates the impact of churning customers:
+
+INSERT LINK
+
+Around 30% of the future revenue has been lost due to customers leaving Telco. This is equivalent to around $1.7 milion annually. If this churn trend is persistent, the annual churn rate will reach 97% and the financial viability of the company would be in imminent danger. Good news is that the telecommunications average churn rate is 22% and Telco has time and resources to achieve the industry benchmark. 
+
+Recognising the critical need to address this surge in customer churn, Telco has decided to leverage data science in understanding and mitigating this trend.
 
 Telco provided a data set with the following information:
 
@@ -59,7 +67,12 @@ In the context of a churn prediction project where interpretability and model pe
 
 All three algorithms are well-suited for handling imbalanced data, providing a comprehensive approach to churn prediction that aligns with the project's dual objectives of interpretability and performance.
 
+To construct the models, we have splitted the data into 80% and 20% for training and testing purposes, respectively. Cross-validation has been implemented to optimise hyperparameters and reduce the likelihood of overfitting. Regularisation techniques and feature selection have been used when relevant. Multiple evaluation metrics have been considered when selecting the best model for each one of the algorithms.
+
 1) Statistical Evaluation
+
+We plotted Precision-Recall curves for each optimised model within the testing data. These curves effectively visualise the trade-off between precision and recall for different models. Precision measures how many movies predicted to be successful are genuinely successful whereas Recall measures how many successful movies were accurately identified among all the successful movies. ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/f16545ad-e19b-4b83-9e72-76e31f14b702)
+
 
 The primary goal in churn prediction is to identify customers who are actually at risk of churning. Maximising recall ensures that you capture as many true positives (actual churners) as possible. This is crucial for implementing effective retention strategies and preventing customer attrition.
 
