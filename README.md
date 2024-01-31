@@ -68,11 +68,11 @@ To construct the models, we have splitted the data into 80% and 20% for training
 
 1) Statistical Evaluation
 
-We plotted Precision-Recall curves for each optimised model within the testing data. These curves effectively visualise the trade-off between precision and recall for different models. Precision measures how many customers predicted to churn genuinely churned whereas Recall measures how many churned customers were accurately identified among all the churned customers. 
+We plotted Precision-Recall (PR) curves for each optimised model within the testing data. These curves effectively visualise the trade-off between precision and recall for different models. Precision measures how many customers predicted to churn genuinely churned whereas Recall measures how many churned customers were accurately identified among all the churned customers. PR curves are useful in evaluating machine learning models, especially in scenarios where the class distribution is imbalanced, as it is in this case where one class (loyal customers) significantly outnumbers the other (churned customers). 
 
 ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/593ccee3-dceb-445d-8233-4b203ab5715b)
 
-The primary goal in churn prediction is to identify customers who are actually at risk of churning. Maximising recall ensures that you capture as many true positives (actual churners) as possible. This is crucial for implementing effective retention strategies and preventing customer attrition.
+PR curves help in selecting an appropriate decision threshold based on the specific needs of an application. The primary goal in churn prediction is to identify customers who are actually at risk of churning. Maximising recall ensures that you capture as many true positives (actual churners) as possible. This is crucial for implementing effective retention strategies and preventing customer churn.
 
 While recall is important, precision should not be completely ignored. Precision is crucial for resource efficiency. In a telecommunications context, a false positive may lead to unnecessary and potentially costly retention efforts. Furthermore, incorrectly targeting non-churning customers as potential churners can lead to customer frustration and dissatisfaction.
 
@@ -93,7 +93,7 @@ This project includes an evaluation framework that decision-makers can use to te
   - Retention conversion rate: From those customers who were going to churn and have been approached by our initiatives (i.e. True Positives), only 35% accept our offers, the other 65% leave the company.
   - Retention strategy costs: Equivalent to 10% of the monthly fees paid by the customers targeted by our initiatives, regardless the cluster they belong to.
   - Customer lifetime: The 35% of customers who accept the offers extend the contract for 2 years.
-  - Budget: The company wants to spend a maximum of $85k, which represent a 15% of its annual marketing budget.
+  - Budget: The company wants to spend a maximum of $85k in retention efforts, which represents a 15% of its annual marketing budget.
 
  Following this example, and using only a 20% of our data to make these estimations (this is the part of the data used for testing purposes in our modelling), we can visualise the impact of our proposed retention campaign.
 
