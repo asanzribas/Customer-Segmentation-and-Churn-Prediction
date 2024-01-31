@@ -85,7 +85,12 @@ Maximising recall is important for capturing as many true churners as possible b
   - Retention strategy costs: Equivalent to 10% of the monthly fees paid by the customers targeted by our initiatives, regardless the cluster they belong to.
   - Customer lifetime: The 35% of customers who accept the offers extend the contract for 2 years.
 
- Following this example, and using only a 20% of our data to make these estimations (this is the part of the data used for testing purposes in our modelling), we can see the following results:
+ Following this example, and using only a 20% of our data to make these estimations (this is the part of the data used for testing purposes in our modelling), we can visualise the impact of our proposed retention campaign.
+
+ The first subplot illustrates the estimated net income and retention costs for each model and target recall rate. A budget line is included in the plot, indicating the financial threshold that the business is willing to spend on retention efforts.
+
+ The second subplot visualises the ROI for each model at different target recall rates. This will help us to measure the profitability of the investment, which is the estimated revenue generated for true positives that have been convinced to stay, relative to its cost, 
+ which is the retention cost paid for these customers and the false positives. A ROI of 150% means that for every dollar you invested, you got 1.50 USD back.
 
  ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/7bff1c49-91ce-4f9c-82ac-ba20e81fd59b)
 
