@@ -32,7 +32,7 @@ In the context of a customer churn prediction project, clustering can be relevan
 
 - Targeted Marketing Strategies: Once customer segments are identified, businesses can tailor their marketing strategies and retention efforts to address the specific needs and preferences of each cluster. This can improve the effectiveness of retention campaigns.
 
-- Risk Assessment: Clustering can help in assessing the risk of churn for different customer segments. Some segments may be more prone to churn than others, and this information can be valuable in prioritizing efforts to retain high-risk customers.
+- Risk Assessment: Clustering can help in assessing the risk of churn for different customer segments. Some segments may be more prone to churn than others, and this information can be valuable in prioritising efforts to retain high-risk customers.
 
 - Model Calibration: By incorporating cluster information into predictive models, the model's accuracy in predicting customer churn may be improved. The distinct characteristics of each cluster can be used to fine-tune model parameters and enhance its predictive power.
 
@@ -44,7 +44,7 @@ K-Means algorithm has been used for clustering analysis in this project given it
 
 The 3 clusters identified are the following:
 
-| **Category** | Cluster 0: Long-term Enthusiasts | Cluster 1: Value-Oriented Traditionalists | Cluster 2: Dynamic Explorers |
+| **Category** | Cluster 0: Long-term Enthusiasts (2,172 customers)| Cluster 1: Value-Oriented Traditionalists (2,428 customers) | Cluster 2: Dynamic Explorers (2,432 customers)|
 | ------------ | -------------------------------- | ---------------------------------------- | ---------------------------- |
 | **Description** | Long-term customers with higher spending. | Customers with moderate tenure and preference for lower-cost options. | Customers with short tenure and high likelihood of churning. |
 | **Key features** |<br>- DSL (38%) or Fiber optic (62%) services.<br>- Active users of various additional services.<br>- Engaged in longer-term contracts of 1 or 2 years (76%).<br>- Prefer automatic payment methods (Bank transfer and Credit card).<br>- Generally, have a higher probability of being loyal customers. | <br>- Customers who use only phone services (63%) or DSL (37%).<br>- Prefer Month-to-month contracts (49%).<br>- Show a preference for Mailed check payment methods (46%).<br>- Low likelihood of churning. | <br>- DSL (28%) or Fiber optic (72%) services.<br>- Less likely to have partners or dependents.<br>- Prefer Month-to-month contracts (89%).<br>- Lower use of additional services.<br>- High likelihood of churning (49% churned last month). |
