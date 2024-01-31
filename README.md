@@ -94,3 +94,14 @@ Maximising recall is important for capturing as many true churners as possible b
 
  ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/7bff1c49-91ce-4f9c-82ac-ba20e81fd59b)
 
+A recall rate between 70% and 80% seems to be optimal in this scenario according to our estimations, generating strong financial results under the proposed budget. Beyond a recall rate of 80%, the trade-off between revenue generated and retention costs does no longer justify targeting new customers with our retention campaigns.
+
+But what about the opportunity cost of not approaching those customers that could be retained if approached with our campaigns? Let's have a look at this.
+
+The following plot aims to visualise the impact of false negatives on net income for each model. This will ensure that decision-makers consider the opportunity cost of not retaining customers and understand the trade-offs between reducing false negatives, lowering missed revenue but increasing retention costs, and reducing false positives, which would lead to the opposite outcome. 
+
+![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/b31d5a18-e21a-4bfb-b92f-f9c7c3e901e3)
+
+Considering the impact of false negatives highlights the urgency of developing retention campaigns. Under the current scenario, a 50% recall rate is needed to don't loose money. Considering both adjusted Net Income and ROI with the impact of opportunity costs, an 80% recall rate is the optimal point.
+
+However, the higher the retention conversion rate (assumed to be 35% in this scenario), the more incentive the business will have to take risks and target more members whereas the opposite is true if the retention conversion rate is assumed to be lower.
