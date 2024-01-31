@@ -127,13 +127,13 @@ However, the higher the retention conversion rate (assumed to be 35% in this sce
 
 **NEXT STEPS AND RECOMMENDATIONS**
 
-- Exploration of Data Sources: Incorporate more data sources to enhance the models. 
+- Exploration of data sources: Incorporate more data sources to enhance the models. 
 - Continuous model monitoring: Implement a robust monitoring system for the churn prediction models to ensure their ongoing accuracy. Regularly assess model performance using fresh data to identify any potential degradation in predictive power.
 - Dynamic cluster adaptation: Periodically reevaluate and adapt the customer clusters based on the latest data to ensure that retention strategies remain aligned with the current customer landscape.
 - Feature importance updates: Monitor and update the feature importance analysis regularly.
-- Integration with Customer Interaction Platforms: Integrate the predictive models with Telco's customer interaction platforms to enable real-time decision-making.
-- Feedback Loop Implementation: Establish a feedback loop between the data science team and customer service teams. Collect feedback on the effectiveness of implemented retention strategies and use this information to refine and improve the models over time.
-- Scenario-based Sensitivity Analysis: Conduct sensitivity analyses on key parameters, such as retention conversion rates and retention strategy costs, to understand the impact of variations in these factors on the financial outcomes.
-- Customer Feedback Surveys: Implement customer feedback surveys to gather direct insights into the reasons behind churn. This qualitative information can complement the quantitative analysis, offering a more holistic understanding of customer motivations.
-- Investment in Customer Experience: Consider investing in initiatives to enhance overall customer experience.
-- Collaboration Across Departments: Foster collaboration between the data science team, marketing, and customer service departments. This interdisciplinary approach ensures that insights from data science are effectively translated into actionable strategies.
+- Integration with customer interaction platforms: Integrate the predictive models with Telco's customer interaction platforms to enable real-time decision-making.
+- Feedback loop implementation: Establish a feedback loop between the data science team and customer service teams. Collect feedback on the effectiveness of implemented retention strategies and use this information to refine and improve the models over time.
+- Scenario-based sensitivity analysis: Conduct sensitivity analyses on key parameters, such as retention conversion rates and retention strategy costs, to understand the impact of variations in these factors on the financial outcomes.
+- Customer feedback surveys: Implement customer feedback surveys to gather direct insights into the reasons behind churn. This qualitative information can complement the quantitative analysis, offering a more holistic understanding of customer motivations.
+- Investment in customer experience: Consider investing in initiatives to enhance overall customer experience.
+- Collaboration across departments: Foster collaboration between the data science team, marketing, and customer service departments. This interdisciplinary approach ensures that insights from data science are effectively translated into actionable strategies.
