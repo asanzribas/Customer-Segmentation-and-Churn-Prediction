@@ -1,3 +1,7 @@
+<h1>Project Overview</h1>
+
+In this repository, you'll find the code, analysis, and findings that contribute to Telco's journey in reshaping its customer retention strategies and securing a more sustainable future in the telecommunications market. If you don't have time to delve into the details immediately, please see a quick overview of the project below.
+
 **INTRODUCTION**
 
 What if a telecommunications company could predict and prevent customer churn, saving millions in potential lost revenue? This was the challenge faced by Telco as a staggering 26% of its customer base chose to discontinue services in the last month. 
@@ -16,7 +20,7 @@ To address this pressing issue, Telco has decided to leverage data science to un
 
 These data-driven models will empower Telco to make informed decisions, implement targeted strategies, and proactively engage with customers. By reshaping customer retention strategies, Telco aims not only to meet the industry benchmark but also to build a more resilient and customer-centric telecommunications ecosystem.
 
-In this repository, you'll find the code, analysis, and findings that contribute to Telco's journey in reshaping its customer retention strategies and securing a more sustainable future in the telecommunications market. If you don't have time to delve into the details immediately, please see a quick overview of the project below.
+The following section explores the outcomes of the segmentation analysis, which leverages clustering techniques to categorise Telco's customer base. The identified clusters offer valuable insights into customer behavior, preferences, and characteristics, laying the foundation for targeted and effective retention strategies.
 
 **SEGMENTATION ANALYSIS**
 
@@ -42,11 +46,13 @@ The 3 clusters identified are the following:
 | ------------ | -------------------------------- | ---------------------------------------- | ---------------------------- |
 | **Description** | Long-term customers with higher spending. | Customers with moderate tenure and preference for lower-cost options. | Customers with short tenure and high likelihood of churning. |
 | **Key features** |<br>- DSL (38%) or Fiber optic (62%) services.<br>- Active users of various additional services.<br>- Engaged in longer-term contracts of 1 or 2 years (76%).<br>- Prefer automatic payment methods (Bank transfer and Credit card).<br>- Generally, have a higher probability of being loyal customers. | <br>- Customers who use only phone services (63%) or DSL (37%).<br>- Prefer Month-to-month contracts (49%).<br>- Show a preference for Mailed check payment methods (46%).<br>- Low likelihood of churning. | <br>- DSL (28%) or Fiber optic (72%) services.<br>- Less likely to have partners or dependents.<br>- Prefer Month-to-month contracts (89%).<br>- Lower use of additional services.<br>- High likelihood of churning (49% churned last month). |
-| **Customer Profile** |<br>- Segmentation: Established and loyal customers with Internet services.<br>- Behavior: Prefer stable and reliable services with a commitment to longer contracts.<br>- Potential Strategies: Offer loyalty rewards, promote additional services or upgrades. | <br>- Segmentation: Moderate-term customers with basic service needs, particularly phone services.<br>- Behavior: Prefer flexibility with short-term commitments, cost-conscious.<br>- Potential Strategies: Offer promotions for extended contracts, upsell additional services for internet usage. | <br>- Segmentation: Short-term tenure and highest level of Fiber optic usage.<br>- Behavior: Seek high-speed internet but with a tendency to churn.<br>- Potential Strategies: Focus on customer retention efforts, personalized offers to reduce churn. |
+| **Customer Profile** |<br>- Segmentation: Established and loyal customers with Internet services.<br>- Behavior: Prefer stable and reliable services with a commitment to longer contracts.<br>- Potential Strategies: Offer loyalty rewards, provide personalised offers. | <br>- Segmentation: Moderate-term customers with basic service needs, particularly phone services.<br>- Behavior: Prefer flexibility with short-term commitments, cost-conscious.<br>- Potential Strategies: Offer promotions for extended contracts, upsell additional services for internet usage. | <br>- Segmentation: Short-term tenure and highest level of Fiber optic usage.<br>- Behavior: Seek high-speed internet but with a tendency to churn.<br>- Potential Strategies: Focus on customer retention efforts, promote additional services or upgrades to reduce churn. |
 
 For simplicty, the clusters can be visualised with two dimensions, monthly charges and tenure:
 
 ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/f5a03706-ff15-4b95-8446-f20826a27b14)
+
+The subsequent section delves into the churn prediction models, providing a comprehensive toolkit for Telco to combat customer churn effectively and make informed, data-driven decisions.
 
 **CHURN PREDICTION**
 
@@ -64,9 +70,13 @@ In the context of a churn prediction project where interpretability and model pe
 
 All three algorithms are well-suited for handling imbalanced data, providing a comprehensive approach to churn prediction that aligns with the project's dual objectives of interpretability and performance.
 
-To construct the models, we have splitted the data into 80% and 20% for training and testing purposes, respectively. Cross-validation has been implemented to optimise hyperparameters and reduce the likelihood of overfitting. Regularisation techniques and feature selection have been used when relevant. Multiple evaluation metrics have been considered when selecting the best model for each one of the algorithms.
+To construct the models, we have splitted the data into 80% and 20% for training and testing purposes, respectively. Testing data in machine learning is like giving a final exam to check if a computer program has really learned from its training and can handle new information accurately. Cross-validation has been implemented to optimise hyperparameters and reduce the likelihood of overfitting. Regularisation techniques and feature selection have been used when relevant. Multiple evaluation metrics have been considered when selecting the best model for each one of the algorithms.
+
+To see how our models perform, we have evaluated them from both a statistical and business impact perspective.
 
 1) Statistical Evaluation
+
+Statistical evaluation of models is crucial in assessing the performance, reliability, and effectiveness of machine learning algorithms. It provides a quantitative basis for understanding how well a model generalises to new, unseen data. 
 
 We plotted Precision-Recall (PR) curves for each optimised model within the testing data. These curves effectively visualise the trade-off between precision and recall for different models. Precision measures how many customers predicted to churn genuinely churned whereas Recall measures how many churned customers were accurately identified among all the churned customers. PR curves are useful in evaluating machine learning models, especially in scenarios where the class distribution is imbalanced, as it is in this case where one class (loyal customers) significantly outnumbers the other (churned customers). 
 
@@ -78,15 +88,17 @@ While recall is important, precision should not be completely ignored. Precision
 
 In short, maximising recall is important for capturing as many true churners as possible but a balance between precision and recall needs to be considered to ensure a well-rounded and effective churn prediction model.
  
-2) Financial Evaluation
+2) Business Impact Assessment (BIA)
+
+Business Impact Assessment is crucial to ensure that machine learning models are aligned with the overarching goals and objectives of the organisation. It provides tools for Cost-Benefit Analysis, resource optimisation, risk mitigation and strategic decision-making.
   
-This project includes an evaluation framework that decision-makers can use to test different marketing strategies and retention campaigns. This evaluation framework allows to use a wide range of scenarios and assumptions.
+This project includes a BIA framework that decision-makers can use to test different marketing strategies and retention campaigns. This BIA framework allows to use a wide range of scenarios and assumptions, simulating real-world conditions given it uses testing data that represents unseen and independent samples that the model has not encountered during training.
 
-  Let's have a look at this evaluation framework with an example that considers the following retention strategies for customers likely to churn according to our models:
+  Let's have a look at this BIA framework with an example that considers the following retention strategies for customers likely to churn according to our models:
 
-  - Long-term Enthusiasts: Offer loyalty rewards
+  - Long-term Enthusiasts: Personalised offers for extended contracts
   - Value-Oriented Traditionalists: Offer promotions for extended contracts
-  - Dynamic Explorers: Personalized offers
+  - Dynamic Explorers: Offer additional services for extended contracts
 
   For simplicity, we will  assume the following:
   
@@ -95,12 +107,11 @@ This project includes an evaluation framework that decision-makers can use to te
   - Customer lifetime: The 35% of customers who accept the offers extend the contract for 2 years.
   - Budget: The company wants to spend a maximum of $85k in retention efforts, which represents a 15% of its annual marketing budget.
 
- Following this example, and using only a 20% of our data to make these estimations (this is the part of the data used for testing purposes in our modelling), we can visualise the impact of our proposed retention campaign.
+ Following this example, we can visualise the impact of our proposed retention campaign.
 
  The first subplot illustrates the estimated net income and retention costs for each model and target recall rate. A budget line is included in the plot, indicating the financial threshold that the business is willing to spend on retention efforts.
 
- The second subplot visualises the ROI for each model at different target recall rates. This will help us to measure the profitability of the investment, which is the estimated revenue generated for true positives that have been convinced to stay, relative to its cost, 
- which is the retention cost paid for these customers and the false positives. A ROI of 150% means that for every dollar you invested, you got 1.50 USD back.
+ The second subplot visualises the Return On Investment (ROI) for each model at different target recall rates. This will help us to measure the profitability of the investment, which is the estimated profit generated for true positives that have been convinced to stay, relative to its cost, which is the retention cost paid for these customers and the false positives. A ROI of 150% means that for every dollar you invested, you got 1.50 USD back.
 
  ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/7bff1c49-91ce-4f9c-82ac-ba20e81fd59b)
 
