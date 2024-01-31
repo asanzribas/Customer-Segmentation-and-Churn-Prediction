@@ -4,7 +4,7 @@ What if a telecommunications company could predict and prevent customer churn, s
 
 **The Problem:**
 
-![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/9ad809b5-dc15-467a-a3a5-fb79f592ebe0)
+![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/d5cc8aad-121d-4d76-8977-02b268729446)
 
 Around 30% of future revenue, equivalent to approximately $1.7 million annually, has been lost due to customer churn. If this trend persists, the annual churn rate could reach a critical 97%, endangering the financial viability of the company. Fortunately, the industry benchmark for churn is 22%, providing Telco with the opportunity to realign and compete effectively.
 
@@ -70,7 +70,7 @@ To construct the models, we have splitted the data into 80% and 20% for training
 
 We plotted Precision-Recall curves for each optimised model within the testing data. These curves effectively visualise the trade-off between precision and recall for different models. Precision measures how many customers predicted to churn genuinely churned whereas Recall measures how many churned customers were accurately identified among all the churned customers. 
 
- ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/2f2b2410-3091-4510-a945-f5b8b1819886)
+![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/593ccee3-dceb-445d-8233-4b203ab5715b)
 
 The primary goal in churn prediction is to identify customers who are actually at risk of churning. Maximising recall ensures that you capture as many true positives (actual churners) as possible. This is crucial for implementing effective retention strategies and preventing customer attrition.
 
@@ -113,6 +113,6 @@ The following plot aims to visualise the impact of false negatives on net income
 ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/bb01f3b4-d1c9-41be-bcb0-4a2fc95e486d)
 
 
-Considering the impact of false negatives highlights the urgency of developing retention campaigns. Under the current scenario, a 50% recall rate is needed to don't loose money. Considering both adjusted Net Income and ROI with the impact of opportunity costs, an 80% recall rate is the optimal point.
+Considering the impact of false negatives highlights the urgency of developing retention campaigns. Under the current scenario, a 50% recall rate is needed to avoid loosing money. Considering both adjusted Net Income and ROI with the impact of opportunity costs, an 80% recall rate is the optimal point.
 
 However, the higher the retention conversion rate (assumed to be 35% in this scenario), the more incentive the business will have to take risks and target more members whereas the opposite is true if the retention conversion rate is assumed to be lower.
