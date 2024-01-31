@@ -116,3 +116,11 @@ The following plot aims to visualise the impact of false negatives on net income
 Considering the impact of false negatives highlights the urgency of developing retention campaigns. Under the current scenario, a 50% recall rate is needed to avoid loosing money. Considering both adjusted Net Income and ROI with the impact of opportunity costs, an 80% recall rate is the optimal point.
 
 However, the higher the retention conversion rate (assumed to be 35% in this scenario), the more incentive the business will have to take risks and target more members whereas the opposite is true if the retention conversion rate is assumed to be lower.
+
+**CONCLUSIONS**
+
+- The implementation of K-Means clustering yielded three distinct customer segments: Long-term Enthusiasts, Value-Oriented Traditionalists, and Dynamic Explorers.
+- Each cluster presents unique characteristics, behaviors, and churn likelihoods, allowing Telco to tailor retention efforts to the specific needs of each group.
+- The churn prediction models, emphasising on interpretability and model performance, provide decision-makers with a comprehensive toolkit to combat customer churn.
+- The financial evaluation framework introduces a business-oriented dimension to the project, allowing Telco to not only identify effective retention strategies but also to gauge their financial viability.
+- By aligning marketing strategies with the identified customer clusters and optimising retention campaigns based on the proposed framework, Telco is in a strong position to reverse the alarming trend of customer churn.
