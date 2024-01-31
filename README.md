@@ -113,7 +113,7 @@ The following plot aims to visualise the impact of false negatives on net income
 ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/bb01f3b4-d1c9-41be-bcb0-4a2fc95e486d)
 
 
-Considering the impact of false negatives highlights the urgency of developing retention campaigns. Under the current scenario, a 50% recall rate is needed to avoid loosing money. Considering both adjusted Net Income and ROI with the impact of opportunity costs, an 80% recall rate is the optimal point.
+Considering the impact of false negatives highlights the urgency of developing retention campaigns. Under the current scenario, a 50% recall rate is needed to avoid losing money. Considering both adjusted Net Income and ROI with the impact of opportunity costs, an 80% recall rate is the optimal point.
 
 However, the higher the retention conversion rate (assumed to be 35% in this scenario), the more incentive the business will have to take risks and target more members whereas the opposite is true if the retention conversion rate is assumed to be lower.
 
@@ -135,5 +135,5 @@ However, the higher the retention conversion rate (assumed to be 35% in this sce
 - Feedback loop implementation: Establish a feedback loop between the data science team and customer service teams. Collect feedback on the effectiveness of implemented retention strategies and use this information to refine and improve the models over time.
 - Scenario-based sensitivity analysis: Conduct sensitivity analyses on key parameters, such as retention conversion rates and retention strategy costs, to understand the impact of variations in these factors on the financial outcomes.
 - Customer feedback surveys: Implement customer feedback surveys to gather direct insights into the reasons behind churn. This qualitative information can complement the quantitative analysis, offering a more holistic understanding of customer motivations.
-- Investment in customer experience: Consider investing in initiatives to enhance overall customer experience.
+- Investment in customer experience: Consider investing in initiatives such as improved support services, user interface enhancements, or additional features to enhance overall customer experience.
 - Collaboration across departments: Foster collaboration between the data science team, marketing, and customer service departments. This interdisciplinary approach ensures that insights from data science are effectively translated into actionable strategies.
