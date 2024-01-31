@@ -59,7 +59,7 @@ In the context of a churn prediction project where interpretability and model pe
 
 All three algorithms are well-suited for handling imbalanced data, providing a comprehensive approach to churn prediction that aligns with the project's dual objectives of interpretability and performance.
 
-- Statistical Evaluation
+1) Statistical Evaluation
 
 The primary goal in churn prediction is to identify customers who are actually at risk of churning. Maximising recall ensures that you capture as many true positives (actual churners) as possible. This is crucial for implementing effective retention strategies and preventing customer attrition.
 
@@ -69,4 +69,20 @@ Maximising recall is important for capturing as many true churners as possible b
 
  ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/2f2b2410-3091-4510-a945-f5b8b1819886)
  
+2) Financial Evaluation
+  
+  This project includes an evaluation framework that decision-makers can use to test different marketing strategies and retention campaigns. This evaluation framework allows to use a wide range of scenarios and assumptions.
 
+  Let's have a look at this evaluation framework with an example that considers the following retention strategies for customers likely to churn according to our models:
+
+  - Long-term Enthusiasts: Offer loyalty rewards
+  - Value-Oriented Traditionalists: Offer promotions for extended contracts
+  - Dynamic Explorers: Personalized offers
+
+  For simplicity, we will  assume the following:
+  
+  - Retention conversion rate: From those customers who were going to churn and have been approached by our initiatives (i.e. True Positives), only 35% accept our offers, the other 65% leave the company.
+  - Retention strategy costs: Equivalent to 10% of the monthly fees paid by the customers targeted by our initiatives, regardless the cluster they belong to.
+  - Customer lifetime: The 35% of customers who accept the offers extend the contract for 2 years.
+
+ Following this example, and using only a 20% of our data to make these estimations (this is the part of the data used for testing purposes in our modelling), we can see the following results:
