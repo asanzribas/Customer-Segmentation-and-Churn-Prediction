@@ -112,7 +112,8 @@ But what about the opportunity cost of not approaching those customers that coul
 
 The following plot aims to visualise the impact of false negatives on net income for each model. This will ensure that decision-makers consider the opportunity cost of not retaining customers and understand the trade-offs between reducing false negatives, lowering missed revenue but increasing retention costs, and reducing false positives, which would lead to the opposite outcome. 
 
-![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/b31d5a18-e21a-4bfb-b92f-f9c7c3e901e3)
+![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/bb01f3b4-d1c9-41be-bcb0-4a2fc95e486d)
+
 
 Considering the impact of false negatives highlights the urgency of developing retention campaigns. Under the current scenario, a 50% recall rate is needed to don't loose money. Considering both adjusted Net Income and ROI with the impact of opportunity costs, an 80% recall rate is the optimal point.
 
