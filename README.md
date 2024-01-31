@@ -93,6 +93,7 @@ This project includes an evaluation framework that decision-makers can use to te
   - Retention conversion rate: From those customers who were going to churn and have been approached by our initiatives (i.e. True Positives), only 35% accept our offers, the other 65% leave the company.
   - Retention strategy costs: Equivalent to 10% of the monthly fees paid by the customers targeted by our initiatives, regardless the cluster they belong to.
   - Customer lifetime: The 35% of customers who accept the offers extend the contract for 2 years.
+  - Budget: The company wants to spend a maximum of $85k, which represent a 15% of its annual marketing budget.
 
  Following this example, and using only a 20% of our data to make these estimations (this is the part of the data used for testing purposes in our modelling), we can visualise the impact of our proposed retention campaign.
 
