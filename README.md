@@ -4,7 +4,7 @@ The telecommunications company Telco finds itself facing a pressing challenge â€
 
 The following chart illustrates the impact of churning customers:
 
-INSERT LINK
+![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/9ad809b5-dc15-467a-a3a5-fb79f592ebe0)
 
 Around 30% of the future revenue has been lost due to customers leaving Telco. This is equivalent to around $1.7 milion annually. If this churn trend is persistent, the annual churn rate will reach 97% and the financial viability of the company would be in imminent danger. Good news is that the telecommunications average churn rate is 22% and Telco has time and resources to achieve the industry benchmark. 
 
