@@ -1,25 +1,22 @@
 **INTRODUCTION**
 
-The telecommunications company Telco finds itself facing a pressing challenge – a significant 26% of its customer base has opted to discontinue services in the last month. 
+What if a telecommunications company could predict and prevent customer churn, saving millions in potential lost revenue? This was the challenge faced by Telco as a staggering 26% of its customer base chose to discontinue services in the last month. 
 
-The following chart illustrates the impact of churning customers:
+**The Problem:**
 
 ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/9ad809b5-dc15-467a-a3a5-fb79f592ebe0)
 
-Around 30% of the future revenue has been lost due to customers leaving Telco. This is equivalent to around $1.7 milion annually. If this churn trend is persistent, the annual churn rate will reach 97% and the financial viability of the company would be in imminent danger. Good news is that the telecommunications average churn rate is 22% and Telco has time and resources to achieve the industry benchmark. 
+Around 30% of future revenue, equivalent to approximately $1.7 million annually, has been lost due to customer churn. If this trend persists, the annual churn rate could reach a critical 97%, endangering the financial viability of the company. Fortunately, the industry benchmark for churn is 22%, providing Telco with the opportunity to realign and compete effectively.
 
-Recognising the critical need to address this surge in customer churn, Telco has decided to leverage data science in understanding and mitigating this trend.
+**The Mission:**
 
-Telco provided a data set with the following information:
+To address this pressing issue, Telco has decided to leverage data science to understand and mitigate the surge in customer churn. Armed with a comprehensive dataset encompassing customer details, services, and demographics, the mission is clear: develop predictive models to identify customers likely to switch and understand the contributing factors.
 
-* Customers who left within the last month 
-* Services that each customer has signed up for
-* Customer account information: How long they have been a customer, contract, payment method, paperless billing, monthly charges, and total charges
-* Demographic info: Gender, age range, and if customers have partners and dependents
+**The Impact:**
 
-The mission is clear: develop predictive models to understand which customers are more likely to switch to competitors and what factors contribute to it. This data-driven approach will empower Telco to make informed decisions, implement targeted strategies, and proactively engage with customers to address their concerns and increase customer satisfaction.
+These data-driven models will empower Telco to make informed decisions, implement targeted strategies, and proactively engage with customers. By reshaping customer retention strategies, Telco aims not only to meet the industry benchmark but also to build a more resilient and customer-centric telecommunications ecosystem.
 
-The contributions of the customer churn prediction models will play a pivotal role in not only reshaping Telco's customer retention strategies but also building a more resilient and customer-centric telecommunications ecosystem.
+In this repository, you'll find the code, analysis, and findings that contribute to Telco's journey in reshaping its customer retention strategies and securing a more sustainable future in the telecommunications market. If you don't have time to delve into the details immediately, please see a quick overview of the project below.
 
 **SEGMENTATION ANALYSIS**
 
