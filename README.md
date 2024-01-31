@@ -38,6 +38,8 @@ In the context of a customer churn prediction project, clustering can be relevan
 
 - Anomaly Detection: Clustering can help identify outliers or anomalies within the data, which may represent unusual customer behavior. Detecting these anomalies early on can be crucial in predicting and preventing customer churn.
 
+Clustering is a machine learning technique that involves grouping similar data points together based on certain characteristics. The goal of clustering is to find patterns within the data, with the idea that items within the same cluster are more similar to each other than to those in other clusters. It is an unsupervised learning approach, meaning that the algorithm does not require labeled training data.
+
 K-Means algorithm has been used for clustering analysis in this project given its simplicity, efficiency, scalability, versatility and intuitiveness. However, it's essential to note that K-Means has some limitations. It assumes spherical clusters of similar sizes, and its performance may degrade with non-linear or irregularly shaped clusters. The number of clusters (K) needs to be specified in advance. We have selected three clusters considering both inertia plots and silhouette diagrams.
 
 The 3 clusters identified are the following:
@@ -48,7 +50,7 @@ The 3 clusters identified are the following:
 | **Key features** |<br>- DSL (38%) or Fiber optic (62%) services.<br>- Active users of various additional services.<br>- Engaged in longer-term contracts of 1 or 2 years (76%).<br>- Prefer automatic payment methods (Bank transfer and Credit card).<br>- Generally, have a higher probability of being loyal customers. | <br>- Customers who use only phone services (63%) or DSL (37%).<br>- Prefer Month-to-month contracts (49%).<br>- Show a preference for Mailed check payment methods (46%).<br>- Low likelihood of churning. | <br>- DSL (28%) or Fiber optic (72%) services.<br>- Less likely to have partners or dependents.<br>- Prefer Month-to-month contracts (89%).<br>- Lower use of additional services.<br>- High likelihood of churning (49% churned last month). |
 | **Customer Profile** |<br>- Segmentation: Established and loyal customers with Internet services.<br>- Behavior: Prefer stable and reliable services with a commitment to longer contracts.<br>- Potential Strategies: Offer loyalty rewards, provide personalised offers. | <br>- Segmentation: Moderate-term customers with basic service needs, particularly phone services.<br>- Behavior: Prefer flexibility with short-term commitments, cost-conscious.<br>- Potential Strategies: Offer promotions for extended contracts, upsell additional services for internet usage. | <br>- Segmentation: Short-term tenure and highest level of Fiber optic usage.<br>- Behavior: Seek high-speed internet but with a tendency to churn.<br>- Potential Strategies: Focus on customer retention efforts, promote additional services or upgrades to reduce churn. |
 
-For simplicty, the clusters can be visualised with two dimensions, monthly charges and tenure:
+The following chart illustrates the clusters using two dimensions, monthly charges and tenure. Each point represents a customer, where the color identifies the cluster and the shape the service contracted (i.e. Fiber optic, DSL and No Internet).
 
 ![image](https://github.com/asanzribas/Customer-Segmentation-and-Churn-Prediction/assets/143028834/f5a03706-ff15-4b95-8446-f20826a27b14)
 
